@@ -10,7 +10,7 @@ These instructions will get a copy of the project running on your local machine.
 $ brew install node
 ```
 
-* An API key from https://developer.musicgraph.com/signup?
+* An API key from https://developer.musicgraph.com/signup
 
 
 Clone the repo and install dependencies:
@@ -18,7 +18,7 @@ Clone the repo and install dependencies:
 ```
 $ npm i
 ```
-The 'dev' script is setup to pull an API_KEY from your bash environment. Define an API_KEY:
+The 'dev' script is setup to pull an MGRPH_KEY from your bash environment. Define MGRPH_KEY:
 
 ```
 $ export MGRPH_KEY=yourAPIkey
